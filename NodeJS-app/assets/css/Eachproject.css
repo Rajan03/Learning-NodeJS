@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #333;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.nav ul {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about {
+    height: 300vh;
+    display: flex;
+}
+
+.about-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.about-pages {
+    width: 50%;
+}
+
+.about-pages div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-pages div:nth-child(1) {
+    background-color: darkgreen;
+}
+
+.about-pages div:nth-child(2) {
+    background-color: purple;
+}
+
+.about-pages div:nth-child(3) {
+    background-color: darkblue;
+}

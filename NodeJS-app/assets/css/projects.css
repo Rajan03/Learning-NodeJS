@@ -1,0 +1,69 @@
+nav {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background: #ecf0f3;
+    overflow: hidden;
+    box-shadow: 13px 13px 20px #cbced1, 13px 13px 20px #cbced1;
+    border-radius: 40px;
+}
+nav a {
+    text-decoration: none;
+    position: relative;
+    color: #5e17eb;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2
+}
+nav a b {
+    position: relative;
+    top: 40px;
+    transition: 0.3s ease top;
+}
+nav a i {
+    position: relative;
+    left: 25%;
+    transition: 0.3s ease left;
+}
+nav span {
+    position: absolute;
+    width: 100px;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: #ecf0f3;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    border-radius: 50px;
+    z-index: 1;
+}
+nav a:hover b {
+    top: 0;
+}
+nav a:hover i {
+    left: 0;
+}
+nav a:nth-child(1):hover~span {
+    left: 10px;
+}
+nav a:nth-child(2):hover~span {
+    left: 114px;
+}
+nav a:nth-child(3):hover~span {
+    left: 218px;
+}
+card {
+    min-height: 20rem;
+    width: 20rem;
+    border: 2px solid red;
+    text-align: center;
+}
+card a {
+    margin-top: 5rem !important;
+    padding: 8px 10px;
+    border: 2px solid red;
+}
