@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#userForm{
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo{
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#headLinks,#headLink{
+  color: #fff;
+  text-align: center;
+  padding: 27px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  outline: none !important;
+}
+#toogle{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+button{
+  font-size: 20px;
+  font-weight: 700 !important;
+  letter-spacing: 2px;
+}
